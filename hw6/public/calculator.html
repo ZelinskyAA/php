@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw6</title>
+</head>
+<body>
+<h1>Calculator</h1>
+
+<form action="calc.php" method="post">
+    <h2>Задание 1: Калькулятор с выбором операции из выпадающего списка</h2>
+    <div>
+        Значение 1
+        <input type="number" name="value1">
+    </div>
+    <div>
+        Значение 2
+        <input type="number" name="value2">
+    </div>
+    <div>
+        Операция
+        <select  name="operation">
+            <option>Сложение</option>
+            <option>Вычитание</option>
+            <option>Умножение</option>
+            <option>Деление</option>
+        </select>
+    </div>
+    <br>
+    <input type="submit" name="subCalc" value="Calculate it" />
+
+</form>
+
+<form action="calc.php" method="post">
+    <h2>Задание 2: Калькулятор с выбором операции из выпадающего списка</h2>
+    <div>
+        Значение 1
+        <input type="number" name="value1">
+    </div>
+    <div>
+        Значение 2
+        <input type="number" name="value2">
+    </div>
+    <br>
+    <div>
+        Операция
+        <input type="submit" name="subPlus" value="+" />
+        <input type="submit" name="subMinus" value="-" />
+        <input type="submit" name="subMult" value="*" />
+        <input type="submit" name="subDiv" value="/" />
+
+    </div>
+    <br>
+
+
+</form>
+
+</body>
+</html>

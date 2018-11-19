@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.h1 {
+    font-size: 50px;
+}
+
+.imgmin  {
+    width: 10%;
+    height: 10%;
+}
+
+.imgmax {
+    width: 50%;
+    height: 50%;
+}
+
+/*.inputArt {*/
+    /*width: 50px;*/
+/*}*/
